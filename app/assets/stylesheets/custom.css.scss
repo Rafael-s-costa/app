@@ -1,3 +1,76 @@
+$navbar-default-bg: #FBA90A;
 // "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+body {
+  background-color: #F7EBD4;
+}
+
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#logo:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.center {
+  text-align: center;
+}
+
+.jumbotron {
+  border: 2px solid #FBA90A;
+  border-radius: 2px;
+  background-color: #FFE552;
+  background-size: cover;
+  height: 400px;
+}
+
+.jumbotron h1 {
+  color: #313409;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: -1px;
+}
+
+.btn-xlarge {
+  font-size: 1.7em;
+  background-color: #565752;
+  border-color: #313409;
+}
+
+.btn-xlarge:hover {
+  background-color: #FBA90A;
+}
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #313409;
+  color: #565752;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
+}
