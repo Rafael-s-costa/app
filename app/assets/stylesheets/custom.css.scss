@@ -68,6 +68,8 @@ body {
   border-top: 1px solid #eaeaea;
   padding-top: 15px;
   padding-bottom: 15px;
+  table-layout: fixed;
+  word-wrap: break-word;
 }
 
 footer {
